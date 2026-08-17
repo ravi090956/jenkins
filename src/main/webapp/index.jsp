@@ -6,7 +6,7 @@ i<%@ page import="java.sql.*,java.util.*" %>
 <h2><%= request.getParameter("msg") %></h2>
 
 <%
-    String password = "admin14523"; // Hardcoded credential
+    String password = "admin1r4523"; // Hardcoded credential
 
     Connection conn = null;
     Statement stmt = null;
